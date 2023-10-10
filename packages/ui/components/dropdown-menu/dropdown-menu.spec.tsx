@@ -5,7 +5,7 @@ import {
   DropdownMenuContent,
   DropdownMenuItem,
   DropdownMenuTrigger,
-} from './ui-dropdown-menu';
+} from './dropdown-menu';
 
 describe('DropdownMenu', () => {
   it('should render successfully', async () => {

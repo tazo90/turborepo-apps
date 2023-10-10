@@ -4,13 +4,13 @@ import { Moon, Sun } from 'lucide-react';
 import { useTheme } from 'next-themes';
 import { FC } from 'react';
 
-import { Button } from './ui-button';
+import { Button } from './button';
 import {
   DropdownMenu,
   DropdownMenuContent,
   DropdownMenuItem,
   DropdownMenuTrigger,
-} from './ui-dropdown-menu';
+} from './dropdown-menu';
 
 export const ModeToggle: FC = () => {
   const { setTheme } = useTheme();
