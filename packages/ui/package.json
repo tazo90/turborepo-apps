@@ -10,7 +10,7 @@
   },
   "dependencies": {
     "tsconfig": "*",
-    "shared-lib": "*",
+    "lib": "*",
     "class-variance-authority": "^0.7.0",
     "clsx": "^2.0.0",
     "tailwind-merge": "^1.14.0",
