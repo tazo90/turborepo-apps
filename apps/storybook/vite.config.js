@@ -1,5 +1,4 @@
-
-import { defineConfig } from 'vite'
+import { defineConfig } from 'vite';
 
 /**@type {import('vitest/config').UserConfig} */
 const sharedConfigs = require('config/vite.config');
