@@ -1,0 +1,28 @@
+{
+  "name": "api",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "config": "*",
+    "class-validator": "0.14.0",
+    "bcryptjs": "2.4.3",
+    "next": "13.5.4",
+    "next-api-middleware": "2.0.1",
+    "next-axiom": "1.0.0",
+    "next-swagger-doc": "0.4.0",
+    "next-validations": "0.3.3",
+    "zod": "3.22.4"
+  },
+  "devDependencies": {
+    "typescript": "^5.2.2",
+    "@types/node": "^20.8.4",
+    "eslint": "^8.51.0",
+    "eslint-config-next": "13.5.4"
+  }
+}
