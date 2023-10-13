@@ -10,8 +10,13 @@
   },
   "dependencies": {
     "config": "*",
+    "database": "*",
     "tsconfig": "*",
     "ui": "*",
     "lib": "*"
+  },
+  "prisma": {
+    "schema": "packages/database/prisma/schema.prisma",
+    "seed": "tsx packages/database/src/seed.ts"
   }
 }

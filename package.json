@@ -8,6 +8,11 @@
   ],
   "scripts": {
     "build": "turbo run build",
+    "db:migrate": "turbo run db:migrate",
+    "db:generate": "turbo run db:generate",
+    "db:seed": "turbo run db:seed",
+    "db:push": "turbo run db:push",
+    "db:shell": "turbo run db:shell",
     "dev": "turbo run dev --parallel",
     "lint": "turbo run lint",
     "test": "turbo run test",
@@ -20,6 +25,7 @@
     "lint-staged": "14.0.1",
     "husky": "^8.0.3",
     "prettier": "^3.0.3",
+    "tsx": "3.13.0",
     "turbo": "^1.10.15",
     "typescript": "5.2.2"
   },
