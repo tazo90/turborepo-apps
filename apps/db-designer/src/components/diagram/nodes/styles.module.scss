@@ -1,0 +1,13 @@
+
+  .handle {
+    @apply  h-full w-4 rounded-none bg-transparent border-0 #{!important};
+    
+    &.left {
+      left: -2px !important;
+    }
+  
+    &.right {
+      right: -2px !important;
+    }
+  }
+  

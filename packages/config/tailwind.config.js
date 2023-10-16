@@ -59,6 +59,18 @@ module.exports = {
           DEFAULT: 'hsl(var(--card))',
           foreground: 'hsl(var(--card-foreground))',
         },
+        // db-designer
+        edge: "#5c7194",
+        modal: "#1A202C",
+        "brand-darker": "#1A202C",
+        "brand-dark": "#2D3748",
+        "brand-light": "#2a4076",
+        "brand-lighter": "#4569c2",
+        "brand-indigo-1": "#5a67d8",
+        "brand-indigo-2": "#4c51bf",
+        "brand-teal-1": "#16A394",
+        "brand-teal-2": "#187367",
+        "brand-blue": "#2c7ad6",
       },
       borderRadius: {
         lg: 'var(--radius)',
@@ -81,5 +93,5 @@ module.exports = {
       },
     },
   },
-  plugins: [require('tailwindcss-animate')],
+  plugins: [require("@tailwindcss/forms"), require('tailwindcss-animate')],
 };
