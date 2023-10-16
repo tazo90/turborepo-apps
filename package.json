@@ -17,7 +17,11 @@
     "lint": "turbo run lint",
     "test": "turbo run test",
     "format": "prettier --write \"**/*.{ts,tsx,md}\"",
-    "prepare": "husky install"
+    "prepare": "husky install",
+    "web": "yarn run --filter web",
+    "api": "yarn run --filter api",
+    "service": "yarn run --filter service",
+    "storybook": "yarn run --filter storybook"
   },
   "devDependencies": {
     "config": "*",
@@ -25,7 +29,7 @@
     "lint-staged": "14.0.1",
     "husky": "^8.0.3",
     "prettier": "^3.0.3",
-    "tsx": "3.13.0",
+    "prettier-plugin-tailwindcss": "^0.2.8",
     "turbo": "^1.10.15",
     "typescript": "5.2.2"
   },
