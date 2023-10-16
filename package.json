@@ -18,10 +18,10 @@
     "test": "turbo run test",
     "format": "prettier --write \"**/*.{ts,tsx,md}\"",
     "prepare": "husky install",
-    "web": "yarn run --filter web",
-    "api": "yarn run --filter api",
-    "service": "yarn run --filter service",
-    "storybook": "yarn run --filter storybook"
+    "web": "yarn dev --filter web",
+    "api": "yarn dev --filter api",
+    "service": "yarn dev --filter service",
+    "storybook": "yarn dev --filter storybook"
   },
   "devDependencies": {
     "config": "*",
