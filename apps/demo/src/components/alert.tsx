@@ -2,6 +2,7 @@
 
 import { useEffect } from 'react';
 import { usePathname } from 'next/navigation';
+import { useAlertService } from '@/services';
 
 export function Alert() {
   const pathname = usePathname();

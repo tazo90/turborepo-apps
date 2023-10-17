@@ -1,4 +1,5 @@
 import { NextRequest } from 'next/server';
+import { auth } from '@/lib/server/auth';
 
 export async function jwtMiddleware(req: NextRequest) {
   if (isPublicPath(req)) {

@@ -3,8 +3,8 @@
 import Link from 'next/link';
 import { useEffect } from 'react';
 
-import { Spinner } from '_components';
-import { useUserService } from '_services';
+import { Spinner } from '@/components';
+import { useUserService } from '@/services';
 
 export default Users;
 

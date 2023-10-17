@@ -2,6 +2,7 @@
 
 import { useState } from 'react';
 import { NavLink } from './nav-link';
+import { useUserService } from '@/services';
 
 export function Nav() {
   const [loggingOut, setLoggingOut] = useState<boolean>(false);
