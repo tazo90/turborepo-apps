@@ -9,6 +9,10 @@ npx prisma migrate dev --name init
 - Prisma studio
 npx prisma studio
 
+## Postgres
+
+kubectl port-forward svc/postgres-postgresql -n postgres 5450:5432
+
 ## Database 
 
 - Run database shell (REPL) via knex or prisma
