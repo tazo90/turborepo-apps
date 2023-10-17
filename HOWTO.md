@@ -13,6 +13,12 @@ npx prisma studio
 
 kubectl port-forward svc/postgres-postgresql -n postgres 5450:5432
 
+## Mongodb
+
+kubectl port-forward svc/mongodb -n mongodb 27017:27017
+
+mongosh --username admin --password pass --host localhost
+
 ## Database 
 
 - Run database shell (REPL) via knex or prisma
