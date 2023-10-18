@@ -10801,9 +10801,9 @@ kleur@^3.0.3:
   resolved "https://registry.npmjs.org/kleur/-/kleur-3.0.3.tgz"
   integrity sha512-eTIzlVOSUR+JxdDFepEYcBMtZ9Qqdef+rnzWdRZuMbOywu5tO2w2N7rqjoANZ5k9vywhL6Br1VRjUIgTQx4E8w==
 
-knex@3.0.1:
+knex@3.0.1, knex@^3.0.1:
   version "3.0.1"
-  resolved "https://registry.npmjs.org/knex/-/knex-3.0.1.tgz"
+  resolved "https://registry.yarnpkg.com/knex/-/knex-3.0.1.tgz#b12f3173c30d8c7b6d69dc257cc9c84db00ad60e"
   integrity sha512-ruASxC6xPyDklRdrcDy6a9iqK+R9cGK214aiQa+D9gX2ZnHZKv6o6JC9ZfgxILxVAul4bZ13c3tgOAHSuQ7/9g==
   dependencies:
     colorette "2.0.19"
@@ -11545,6 +11545,11 @@ neo-async@^2.5.0, neo-async@^2.6.1, neo-async@^2.6.2:
   resolved "https://registry.npmjs.org/neo-async/-/neo-async-2.6.2.tgz"
   integrity sha512-Yd3UES5mWCSqR+qNT93S3UoYUkqAZ9lLg8a7g9rimsWmYGK8cVToA4/sF3RrshdyV3sAGMXVUmpMYOw+dLpOuw==
 
+nest-knexjs@^0.0.18:
+  version "0.0.18"
+  resolved "https://registry.yarnpkg.com/nest-knexjs/-/nest-knexjs-0.0.18.tgz#10153a64e8b8d9db84850dcacc96b816e4068d1e"
+  integrity sha512-a0cFRaxKYo22U4rPHW4opOT/90XYsBrSe0ZATxqA/SOQIq9fq+PTcwccG8O76/TK2dCw6ExuiWAs7vf3387wvg==
+
 new-github-issue-url@0.2.1:
   version "0.2.1"
   resolved "https://registry.npmjs.org/new-github-issue-url/-/new-github-issue-url-0.2.1.tgz"
@@ -12261,9 +12266,9 @@ pg-types@^2.1.0:
     postgres-date "~1.0.4"
     postgres-interval "^1.1.0"
 
-pg@8.11.3:
+pg@8.11.3, pg@^8.11.3:
   version "8.11.3"
-  resolved "https://registry.npmjs.org/pg/-/pg-8.11.3.tgz"
+  resolved "https://registry.yarnpkg.com/pg/-/pg-8.11.3.tgz#d7db6e3fe268fcedd65b8e4599cda0b8b4bf76cb"
   integrity sha512-+9iuvG8QfaaUrrph+kpF24cXkH1YOOUeArRNYIxq1viYHZagBxrTno7cecY1Fa44tJeZvaoG+Djpkc3JwehN5g==
   dependencies:
     buffer-writer "2.0.0"
