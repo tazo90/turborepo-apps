@@ -19,8 +19,8 @@
     "format": "prettier --write \"**/*.{ts,tsx,md}\"",
     "prepare": "husky install",
     "web": "yarn dev --filter web",
-    "api": "yarn dev --filter api",
-    "service": "yarn dev --filter service",
+    "api:next": "yarn dev --filter api-next",
+    "api:express": "yarn dev --filter api-express",
     "storybook": "yarn dev --filter storybook"
   },
   "devDependencies": {
