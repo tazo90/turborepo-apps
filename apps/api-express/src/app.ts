@@ -2,12 +2,15 @@ import { json, urlencoded } from 'body-parser';
 import express from 'express';
 import morgan from 'morgan';
 import cors from 'cors';
+import dotenv from 'dotenv';
 
 import authRouter from './controllers/auth';
 import usersRouter from './controllers/users';
 
 export default async function createApp() {
   const app = express();
+
+  dotenv.config();
 
   app
     .disable('x-powered-by')
